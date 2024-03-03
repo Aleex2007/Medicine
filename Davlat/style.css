@@ -1,0 +1,558 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+nav,
+.nav_1,
+.nav_2 {
+    display: flex;
+    justify-content: space-between;
+
+    align-items: center;
+}
+
+nav {
+    max-width: 1600px;
+    margin: 0 auto;
+    height: 100px;
+}
+
+.nav_1>a {
+    padding-left: 45px;
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+    font-family: "Muller", sans-serif;
+    font-size: 20px;
+
+}
+
+.nav_2 {
+    display: flex;
+    gap: 15px;
+}
+
+.nav_2>select {
+    height: 41px;
+    margin-bottom: 5px;
+    width: 42px;
+}
+
+.nav_2>a>img {
+    height: 43px;
+}
+
+.nav_2>button {
+    background-color: black;
+    color: white;
+    align-items: center;
+    padding: 9px 16px;
+    display: flex;
+    text-align: center;
+    gap: 10px;
+    margin-bottom: 5px;
+}
+
+.Ashitaba {
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    padding-inline-start: 230px;
+    padding-inline-end: 150px;
+
+}
+
+.Ashitaba_1,
+.Ashitaba_1>div {
+    display: flex;
+    align-items: center;
+
+}
+
+.h11 {
+
+    position: relative;
+    width: 500px;
+    right: 20%;
+
+}
+
+
+.Ashitaba_1>div>h1,
+.Ashitaba_1>div>h2 {
+    transform: rotate(270deg);
+    /* margin-top: 300px; */
+
+}
+
+.Ashitaba_1>div>h1 {
+    font-size: 100px;
+    font-weight: 800;
+    font-family: "TT Travels", sans-serif;
+    background: linear-gradient(to right,
+            rgba(16, 24, 32, 1), rgba(113, 153, 76, 1));
+    -webkit-background-clip: text;
+    color: transparent;
+    padding-left: 50px;
+
+
+
+}
+
+.Ashitaba_1>div>h2 {
+    width: 82px;
+    font-size: 68px;
+    font-weight: 400;
+    font-family: "TT Travels", sans-serif;
+    margin-top: 210px;
+    position: relative;
+    left: -75%;
+    width: 396px;
+    /* overflow: hidden; */
+
+
+}
+
+.Ashitaba_1>img {
+    position: relative;
+    right: 20%;
+}
+
+
+
+
+
+
+
+
+
+
+
+.Ashitaba_2>h2 {
+    font-weight: 700;
+    font-size: 34px;
+    font-family: "Muller", sans-serif;
+    line-height:
+        44.2px;
+}
+
+.Ashitaba_2>p {
+
+    font-weight: 400;
+    font-size: 20px;
+    font-family: "Muller", sans-serif;
+    line-height:
+        26px;
+    opacity: 0.7;
+    padding-top: 16px;
+}
+
+.Ashitaba_2>div>button {
+    margin-top: 24px;
+    width: 332px;
+    height: 60px;
+    color: white;
+    border: none;
+    background-image: linear-gradient(to left, rgba(247, 212, 76, 1), rgba(112, 152, 75, 1));
+}
+
+.Ashitaba_2>div>button>a {
+    text-decoration: none;
+    color: white;
+    font-family: "TT Travels", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.Ashitaba_2>div>img {
+    padding-top: 8.5px;
+}
+
+.beauty {
+    padding-top: 100px;
+}
+
+.beauty>div {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-top: 8px;
+}
+
+.beauty>div>h3 {
+    font-weight: 400;
+    font-size: 20px;
+    font-family: "Muller", sans-serif;
+    line-height:
+        26px;
+    opacity: 0.7;
+
+
+}
+
+.start {
+    background: url(image\ 28\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1223px;
+    overflow: hidden;
+
+}
+
+.company {
+    background: url(image\ 26.png) 50% 0%/contain;
+    background-repeat: no-repeat;
+    margin-top: 200px;
+    height: 1200px;
+    /* /* background-position-y: 300px; */
+    background-position-y: 400px;
+
+
+}
+
+
+
+
+
+.company>h2 {
+    font-weight: 700;
+    font-family: "TT Travels", sans-serif;
+    font-size: 60px;
+    padding-inline-start: 150px;
+    line-height: 72px;
+}
+
+.company>div {
+    padding-top: 100px;
+    padding-left: 150px;
+    display: flex;
+    justify-content: space-between;
+    padding-inline-end: 250px;
+
+}
+
+.company>div>div>h3 {
+
+    font-weight: 500;
+    font-family: "TT Travels", sans-serif;
+    line-height: 62.4px;
+    font-size: 50px;
+}
+
+.company>div>div>p {
+    font-weight: 400;
+    padding-top: 15px;
+    font-size: 24px;
+    font-family: "Muller", sans-serif;
+    line-height:
+        31.2px;
+    opacity: 0.7;
+    width: 543px;
+}
+
+.company>div>div>img {
+    padding-top: 30px;
+    padding-right: 15px;
+}
+
+.company>div>div>button {
+    background-color: black;
+    border: none;
+    color: white;
+    height: 60px;
+    width: 360px;
+    margin-top: 30px;
+    font-weight: 700;
+    font-family: "TT Travels", sans-serif;
+    line-height: 26px;
+    font-size: 20px;
+
+}
+
+.company>div>div>button>a {
+    text-decoration: none;
+    color: white;
+}
+
+.company_1 {
+    background: linear-gradient(to top, hwb(0 85% 13% / 0), white);
+}
+
+.catalogue {
+    background: linear-gradient(to left, rgba(241, 234, 236, 1),
+            rgba(154, 194, 223, 1));
+}
+
+.catalogue>.h31 {
+    padding-inline-start: 150px;
+    display: flex;
+    justify-content: space-between;
+    padding-inline-end: 250px;
+    padding-top: 150px;
+
+}
+
+.h31>h2 {
+    font-weight: 700;
+    font-size: 60px;
+    font-family: "TT Travels", sans-serif;
+
+}
+
+.h31>p {
+    font-weight: 400;
+    padding-top: 15px;
+    font-size: 24px;
+    font-family: "Muller", sans-serif;
+    line-height:
+        31.2px;
+    opacity: 0.7;
+    width: 573px;
+
+}
+
+
+
+.catalogue_1 {
+    margin-top: 100px;
+    background-image: url(Каталог\ 1.png);
+    background-size: cover;
+    margin-inline-start: 150px;
+    margin-inline-end: 30px;
+    height: 700px;
+}
+
+.catalogue_1>button {
+    background-image: linear-gradient(to left, rgba(237, 143, 123, 1),
+            rgba(171, 149, 199, 1));
+    border: none;
+    width: 320px;
+    height: 60px;
+    align-items: center;
+    margin-top: 550px;
+    margin-left: 770px;
+
+}
+
+.catalogue_1>button>a {
+    padding-right: 10px;
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    font-family: "TT Travels", sans-serif;
+    line-height: 26px;
+    font-size: 20px;
+
+}
+
+.news {
+    background-image: url(back_03\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    margin-top: 100px;
+}
+
+.news_1 {
+    padding-inline-start: 150px;
+    padding-inline-end: 150px;
+
+}
+
+.news_1>:first-child {
+    display: flex;
+    justify-content: space-between;
+    padding-inline-start: 100px;
+    padding-inline-end: 100px;
+
+}
+
+.news_1>:first-child>h2 {
+    font-weight: 700;
+    font-size: 60px;
+    font-family: "TT Travels", sans-serif;
+}
+
+.news_1>:first-child>h3 {
+    font-weight: 400;
+    font-size: 20px;
+    font-family: "Muller", sans-serif;
+    line-height:
+        20px;
+    opacity: 0.7;
+    display: flex;
+    align-items: center
+}
+
+.flex {
+    margin-top: 100px;
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 100px;
+    margin-left: 80px;
+}
+
+.flex_1>div {
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1));
+    height: 700px;
+    border-radius: 20px;
+
+}
+
+.flex_1 {
+    background-image: url(picture\ \(3\).png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 808px;
+    width: 929px;
+    color: white;
+
+
+
+}
+
+
+.flex_1>div>h4 {
+    font-weight: 500;
+    font-size: 20px;
+    font-family: "Muller", sans-serif;
+    line-height:
+        24px;
+    opacity: 0.7;
+    padding-top: 450px;
+    padding-inline-start: 50px;
+
+
+
+}
+
+.flex_1>div>p {
+    font-weight: 500;
+    font-size: 22px;
+    font-family: "Muller", sans-serif;
+    line-height:
+        28px;
+    padding-top: 10px;
+    padding-inline-start: 50px;
+
+}
+
+.flex_1>div>h2 {
+    font-weight: 500;
+    font-size: 48px;
+    font-family: "Muller", sans-serif;
+    line-height:
+        57.6px;
+    padding-inline-start: 50px;
+
+}
+
+.flex>div>div>h3 {
+    font-weight: 500;
+    font-size: 22px;
+    font-family: "Muller", sans-serif;
+    line-height:
+        28px;
+    padding-top: 0px;
+}
+
+.flex_2>div>div {
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1));
+    height: 320px;
+    width: 434.5px;
+    border-radius: 20px;
+    padding-left: 30px;
+}
+
+.flex_21>div>h4 {
+    padding-top: 180px;
+    opacity: 0.7;
+
+
+}
+
+.flex_22>div>h4 {
+    padding-top: 150px;
+    opacity: 0.7;
+}
+
+.flex_22>div>p,
+.flex_21>div>p {
+    font-weight: 500;
+    font-size: 18px;
+    font-family: "Muller", sans-serif;
+    line-height:
+        24px;
+}
+
+.flex_21 {
+    background-image: url(picture\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 503px;
+    height: 320px;
+
+    color: white;
+
+}
+
+.flex_22 {
+    background-image: url(picture\ \(2\).png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 503px;
+    height: 320px;
+
+    color: white;
+    margin-top: 50px;
+}
+
+.finalle {
+    background-color:
+        rgba(16, 24, 32, 1);
+    height: 400px;
+    padding-inline-start: 250px;
+    padding-inline-end: 250px;
+
+}
+
+.finalle_1 {
+    display: flex;
+    align-items: center;
+    padding-top: 50px;
+
+    justify-content: space-between;
+
+}
+
+.a123>a {
+    margin-top: 15px;
+  
+
+}
+
+.finalle_2 {
+    display: flex;
+    justify-content: space-between;
+   margin-top: 70px;
+   border-top: 1px solid  
+   rgba(255, 255, 255, 1);
+
+
+}
+
+.finalle_2>div {
+    display: flex;
+    gap: 30px;
+    opacity: 0.7;
+    padding-top:43px;
+    align-items: center;
+
+}
+a {
+    text-decoration: none;
+    color: white;
+}

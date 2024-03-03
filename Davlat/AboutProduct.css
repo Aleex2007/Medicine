@@ -1,0 +1,863 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+
+nav,
+.nav_1,
+.nav_2 {
+    display: flex;
+    justify-content: space-between;
+
+    align-items: center;
+}
+
+nav {
+    max-width: 1600px;
+    margin: 0 auto;
+    height: 100px;
+}
+
+
+
+
+.nav_1 {
+    display: flex;
+    gap: 45px;
+}
+
+.nav_1>a {
+    /* padding-left: 45px; */
+
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+    font-family: "Muller", sans-serif;
+    font-size: 20px;
+
+}
+
+.nav_2 {
+    display: flex;
+    gap: 15px;
+}
+
+.nav_2>select {
+    height: 41px;
+    margin-bottom: 5px;
+    width: 42px;
+}
+
+.nav_2>a>img {
+    height: 43px;
+}
+
+.nav_2>button {
+    background-color: black;
+    color: white;
+    align-items: center;
+    padding: 9px 16px;
+    display: flex;
+    text-align: center;
+    gap: 10px;
+    margin-bottom: 5px;
+}
+
+
+
+
+.start {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url("back_01\ 1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1200px;
+    width: contain;
+}
+
+.start_1,
+.start_2,
+.Состав {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.start_1>h1 {
+    font-size: 120px;
+    font-weight: 800;
+    font-family: "TT Travels", sans-serif;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.start>h2 {
+    font-weight: 300;
+    font-size: 80px;
+    text-align: end;
+    right: 16%;
+    font-family: "TT Travels", sans-serif;
+    position: relative;
+    z-index: 5;
+    padding-inline-end: 150px;
+    top: -2%;
+}
+
+.start_2 {
+    display: flex;
+    /* justify-content: space-between; */
+
+
+}
+
+.start_2>div>p {
+    font-weight: 400;
+    font-size: 20px;
+    font-family: "Muller", sans-serif;
+    line-height:
+        26px;
+}
+
+.start_2>div>a>button {
+    width: 332px;
+    height: 60px;
+    margin-top: 20px;
+    color: white;
+    background-image: linear-gradient(to right, rgba(231, 173, 173, 1),
+            rgba(0, 132, 195, 1));
+    border: none;
+
+
+}
+
+.start_2>div>a>button>h4 {
+    font-family: "TT Travels", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+
+}
+
+.start_2>div>div {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+
+
+}
+
+.start_2>div {
+    padding-left: 70px;
+}
+
+.divhate {
+    padding-top: 230px;
+}
+
+.img1 {
+    position: relative;
+    top: -125%;
+    left: 150px;
+    width: 1600px;
+    height: 600px;
+    z-index: 3;
+}
+
+.img4 {
+    position: relative;
+    top: -50%;
+    left: 30%;
+    z-index: 5;
+}
+
+.img3 {
+    position: relative;
+    top: -180%;
+    z-index: 2;
+}
+
+.Состав {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Состав_1 {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+
+
+}
+
+.imgimg {
+    text-align: center;
+    gap: 15px;
+}
+
+.imgimg>:first-child {
+    padding-right: 7px;
+}
+
+.imgimg>:last-child {
+    padding-left: 7px;
+}
+
+.Состав_1_1 {
+    background-color:
+        rgba(244, 244, 244, 1);
+    width: 420px;
+    height: 420px;
+    border-radius: 20px;
+    text-align: center
+}
+
+.flex>div>div {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+
+}
+
+.flex>div>div>p {
+    font-weight: 400;
+    font-size: 16px;
+    font-family: "Muller", sans-serif;
+    opacity: 0.7;
+
+}
+
+.flex>div>div>h3 {
+    font-weight: 400;
+    font-size: 16px;
+    font-family: "Muller", sans-serif;
+}
+
+.flex>h3 {
+    font-weight: 700;
+    font-size: 32px;
+    font-family: "Muller", sans-serif;
+    color: black;
+}
+
+.flex>p {
+    font-weight: 400;
+    font-size: 20px;
+    font-family: "Muller", sans-serif;
+    opacity: 0.7;
+}
+
+.flex>div {
+    padding-top: 15px;
+}
+
+.flex>h4 {
+    padding-top: 30px;
+    font-weight: 600;
+    font-size: 16px;
+    font-family: "Muller", sans-serif;
+    border-bottom: 3px dashed;
+    border-color: rgb(151, 151, 151);
+    width: 240px;
+    line-height: 26px;
+
+}
+
+.Состав_2 {}
+
+.Состав_2>h2 {
+    font-family: "TT Travels", sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 40px;
+}
+
+.Состав_2>h2>span {
+    opacity: 0.5;
+    font-size: 32px;
+    text-decoration: line-through;
+    font-weight: 500;
+}
+
+.Состав_2>a>button {
+    width: 342px;
+    height: 60px;
+    background-image: linear-gradient(to right, rgba(231, 173, 173, 1),
+            rgba(0, 132, 195, 1));
+    border: none;
+    margin-top: 30px;
+    color: white;
+}
+
+.Состав_2>a>button>p {
+    font-family: "TT Travels", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+
+}
+
+.Состав_2>div {
+    margin-top: 30px;
+
+
+}
+
+.Состав_2_1>h3 {
+
+    font-weight: 600;
+    font-size: 16px;
+    font-family: "Muller", sans-serif;
+    border-bottom: 3px dashed;
+    line-height: 25px;
+    border-color: rgb(151, 151, 151);
+    padding-top: 15px;
+
+}
+
+.Состав_2_2 {
+    display: flex;
+    gap: 15px;
+    background-color:
+        rgba(223, 239, 255, 1);
+    width: 342px;
+    height: 90px;
+    text-align: center;
+    border-radius: 10px;
+
+
+}
+
+.Состав_2_2>img {
+    position: relative;
+    top: 15px;
+    left: 20px;
+}
+
+.Состав_2_2>p {
+    font-weight: 400;
+    font-size: 16px;
+    font-family: "Muller", sans-serif;
+    line-height: 20px;
+    padding-left: 20px;
+    padding-top: 15px;
+    color: rgba(11, 31, 53, 1);
+    width: 278px;
+    text-align: start;
+
+}
+
+.video {
+    background-image: linear-gradient(to left, rgba(241, 234, 236, 1),
+            rgba(154, 194, 223, 1));
+    height: 1200px;
+    margin-top: 150px;
+
+
+}
+
+.video>h2 {
+    padding-left: 150px;
+    font-family: "TT Travels", sans-serif;
+    font-weight: 800;
+    font-size: 80px;
+    line-height: 96px;
+    padding-top: 50px;
+}
+
+.video>div {
+    padding-top: 50px;
+    padding-left: 150px;
+
+}
+
+.video>div>img {
+    width: 1600px;
+}
+
+.Artromarine {
+    max-width: 1600px;
+    margin: 0 auto;
+    height: 1660px;
+}
+
+.Artromarine_1>h2 {
+
+    font-family: "TT Travels", sans-serif;
+    font-weight: 800;
+    font-size: 80px;
+    line-height: 96px;
+    padding-top: 130px;
+}
+
+.Artromarine_1>p {
+    font-weight: 400;
+    font-size: 26px;
+    font-family: "Muller", sans-serif;
+    line-height: 33.8px;
+    opacity: 0.8;
+    padding-top: 31px;
+}
+
+.Artromarine_2 {
+    padding-top: 90px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Artromarine_2>img {
+    height: 972px;
+    width: 864px;
+}
+
+.Artromarine_2>div {
+    width: 493px;
+}
+
+.Artromarine_2>div>h3 {
+    font-weight: 400;
+    font-size: 24px;
+    font-family: "Muller", sans-serif;
+    line-height: 31.2px;
+    opacity: 0.8;
+    padding-top: 110px;
+
+}
+
+.Artromarine_2>div>img {
+    padding-top: 25px;
+
+}
+
+.Artromarine_2>div>p {
+    padding-top: 25px;
+    font-weight: 400;
+    font-size: 24px;
+    font-family: "Muller", sans-serif;
+    line-height: 31.2px;
+    opacity: 0.3;
+}
+
+
+.ForWhom {
+    background-image: linear-gradient(to left bottom, rgba(241, 234, 236, 1),
+            rgba(154, 194, 223, 1));
+    padding-inline-start: 150px;
+    padding-inline-end: 150px;
+    height: 1000px;
+
+}
+
+.ForWhom>h2 {
+    text-align: center;
+    font-family: "TT Travels", sans-serif;
+    font-weight: 800;
+    font-size: 80px;
+    line-height: 96px;
+    padding-top: 100px;
+
+}
+
+.ForWhom_1 {
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.ForWhom_1>div>div {
+    display: flex;
+    gap: 20px;
+    align-items: start;
+    margin-top: 10px;
+
+}
+
+.ForWhom_1>div>div>p {
+
+    margin-top: 25px;
+    font-weight: 400;
+    font-size: 24px;
+    font-family: "Muller", sans-serif;
+    line-height: 31.2px;
+    width: 460px;
+}
+
+.ForWhom_1>div>div>img {
+    padding-top: 18px;
+}
+
+
+.rules {
+    max-width: 1600px;
+    margin: 0 auto;
+    height: 1500px;
+
+}
+
+.rules>h2 {
+
+    font-family: "TT Travels", sans-serif;
+    font-weight: 800;
+    font-size: 80px;
+    line-height: 96px;
+    padding-top: 200px;
+}
+
+.rules_1 {
+    display: flex;
+    gap: 15px;
+    background-color:
+        rgba(223, 239, 255, 1);
+    width: 829px;
+    height: 56px;
+    text-align: center;
+    border-radius: 5px;
+    align-items: center;
+    padding-left: 30px;
+    margin-top: 35px;
+}
+
+.rules>img {
+    padding-top: 35px;
+}
+
+.rules>h3 {
+    font-weight: 600;
+    font-size: 42px;
+    font-family: "Muller", sans-serif;
+    line-height: 42px;
+    padding-top: 35px;
+}
+
+.rules>p {
+    padding-top: 35px;
+
+    font-weight: 400;
+    font-size: 24px;
+    font-family: "Muller", sans-serif;
+    line-height: 31.2px;
+    opacity: 0.8;
+}
+
+.rules_2 {
+    margin-top: 12px;
+
+}
+
+.rules_2>div {
+    display: flex;
+    justify-content: space-between;
+    width: 1110px;
+    padding-top: 24px;
+}
+
+.rules_2>div>p,
+.rules_2>div>h4 {
+
+    font-weight: 400;
+    font-size: 24px;
+    font-family: "Muller", sans-serif;
+    line-height: 31.2px;
+    opacity: 0.8;
+}
+
+.rules_3 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.rules_3>div>h3 {
+    font-weight: 600;
+    font-size: 42px;
+    font-family: "Muller", sans-serif;
+    line-height: 42px;
+    padding-top: 24px;
+
+}
+
+.rules_3>div>p {
+    padding-top: 16px;
+
+    font-weight: 400;
+    font-size: 24px;
+    font-family: "Muller", sans-serif;
+    line-height: 31.2px;
+    width: 616px;
+}
+
+
+.material{
+    background-image: url(back_01\ 1\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-inline-start: 150px;
+    padding-inline-end: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 900px;
+}
+.material_1>h2{
+    padding-top: 170px;
+    font-family: "TT Travels", sans-serif;
+    font-weight: 800;
+    font-size: 120px;
+    line-height: 96px;
+}
+.material_1>div{
+    margin-top: 70px;
+    display: flex;
+    width: 800px;
+    justify-content: space-between;
+}
+.material_1>div>div{
+    height: 195px;
+    width: 220px;
+    background-color: white;
+    align-items: center;
+    text-align: center;
+    padding-top: 40px;
+    z-index: 5;
+}
+.material_1>div>div>p{
+    font-weight: 400;
+    font-size: 22px;
+    font-family: "Muller", sans-serif;
+    line-height: 28.2px;
+}
+
+.material>img{
+    z-index: 2;
+    position: relative;
+    width: 650px;
+    height: 767px;
+    top:12%;
+}
+.Отзывы{
+max-width: 1600px;
+margin: 0 auto;
+height: 1600px;
+}
+.Отзывы>h2{
+    padding-top: 150px;
+    font-family: "TT Travels", sans-serif;
+    font-weight: 800;
+    font-size: 80px;
+    line-height: 96px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 50px;
+    gap: 200px;
+}
+.grid1{
+    background-image: url(Rectangle\ 211.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 503px;
+    width: 700px;
+   text-align: center;
+   padding-top: 28%;
+}
+.grid2{
+    background-image: url(Rectangle\ 212.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 503px;
+    width: 700px;
+    text-align: center;
+    padding-top: 28%;
+
+}
+.grid3{
+    background-image: url(Rectangle\ 213.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 503px;
+    width: 700px;
+    text-align: center;
+    padding-top: 28%;
+    margin-top: -10%;
+
+}
+.grid4{
+    background-image: url(Rectangle\ 214.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 503px;
+    width: 700px;
+    text-align: center;
+    padding-top: 28%;   
+    margin-top: -10%;
+
+}
+
+.prefinalle>h2{
+    text-align: center;
+    padding-top: 150px;
+    font-family: "TT Travels", sans-serif;
+    font-weight: 800;
+    font-size: 80px;
+    line-height: 96px;
+
+}
+
+.couple-2{
+    padding-top: 200px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1600px;
+    margin: 0 auto;
+    height: 750px;
+  
+    
+}
+.couple-2>div{
+    display: flex;
+    align-items: center;
+    width: 550px;
+    height: 350px;
+    
+}
+.couple-2_1>img{
+    position: relative;
+    right: 20%;
+}
+.couple-2_1{
+    background-image: linear-gradient(  to bottom right,rgba(236, 243, 244, 1),
+    rgba(243, 232, 199, 1));
+}
+.couple-2_2{
+    background-image: linear-gradient( to bottom right ,rgba(190, 240, 255, 1),
+    rgba(229, 221, 249, 1));
+}
+.couple-2_11{
+    position: relative;
+    top: -30%;
+    left: 7%;
+    
+}
+.couple-2_11>div>h2{
+    font-size: 54px;
+    font-weight: 800;
+    font-family: "TT Travels", sans-serif !important;
+    color: black;
+   
+}
+.couple-2_11>div>h3{
+    font-size: 42px;
+    font-weight: 400;
+    font-family: "TT Travels", sans-serif !important;
+    color: black;
+
+}
+.couple-2_11>div>p{
+    opacity: 0.7;
+    color: black;
+    font-weight: 400;
+    font-family: "Muller", sans-serif;
+    font-size: 20px;
+}
+.couple-2_11>div{
+    padding-top: 90px;
+}
+.couple-2_11>div>div{
+    display: flex;
+    align-items: center;
+    padding-top: 8px;
+    gap: 15px;
+}
+.couple-2_22{
+    position: relative;
+    top: -33.5%;
+    left: 7%;
+    
+}
+.couple-2_22>div>h2{
+    font-size: 54px;
+    font-weight: 800;
+    font-family: "TT Travels", sans-serif !important;
+    color: black;
+   
+}
+.couple-2_22>div>h3{
+    font-size: 42px;
+    font-weight: 400;
+    font-family: "TT Travels", sans-serif !important;
+    color: black;
+
+}
+.couple-2_22>div>p{
+    opacity: 0.7;
+    color: black;
+    font-weight: 400;
+    font-family: "Muller", sans-serif;
+    font-size: 20px;
+    padding-top: 20px;
+}
+.couple-2_22>div{
+    padding-top: 110px;
+}
+.couple-2_22>div>div{
+    display: flex;
+    align-items: center;
+    padding-top: 8px;
+    gap: 15px;
+}
+.couple-2_2>img{
+    position: relative;
+    right: 40%;
+}
+.couple-2_1>img{
+    position: relative;
+    padding-left: 40px;
+}
+.finalle {
+    background-color:
+        rgba(16, 24, 32, 1);
+    height: 400px;
+    padding-inline-start: 250px;
+    padding-inline-end: 250px;
+
+}
+
+.finalle_1 {
+    display: flex;
+    align-items: center;
+    padding-top: 50px;
+
+    justify-content: space-between;
+
+}
+
+.a123>a {
+    margin-top: 15px;
+  
+
+}
+
+.finalle_2 {
+    display: flex;
+    justify-content: space-between;
+   margin-top: 70px;
+   border-top: 1px solid  
+   rgba(255, 255, 255, 1);
+
+
+}
+
+.finalle_2>div {
+    display: flex;
+    gap: 30px;
+    opacity: 0.7;
+    padding-top:43px;
+    align-items: center;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+
